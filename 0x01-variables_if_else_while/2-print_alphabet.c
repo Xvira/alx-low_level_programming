@@ -12,7 +12,7 @@ int x;
 
 for (x = 0; x < 26; x++)
 {
-putchar(alphabet[x];
+putchar(alphabet[x]);
 }
 putchar('\n');
 return (0);
