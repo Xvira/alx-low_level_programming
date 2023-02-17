@@ -13,6 +13,6 @@ for (x = 0; x < 52; x++)
 {
 putchar(alph[x]);
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
