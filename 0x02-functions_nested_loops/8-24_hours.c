@@ -22,14 +22,19 @@ void jack_bauer(void)
 					{
 						break;
 					}
+					else if (c >= 53 && d >= 57)
+					{
+						continue;
+					}
 					else
+					{
 						_putchar(a);
-					_putchar(b);
-					_putchar(58);
-					_putchar(c);
-					_putchar(d);
-					_putchar('\n');
-
+						_putchar(b);
+						_putchar(58);
+						_putchar(c);
+						_putchar(d);
+						_putchar('\n');
+					}
 				}
 			}
 		}
