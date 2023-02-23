@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 
 /**
  *print_line - prints a line.
@@ -11,7 +11,8 @@
 void print_line(int n)
 {
 	int l;
-	if ( n <= 0)
+
+	if (n <= 0)
 	{
 		_putchar('\n');
 	}
