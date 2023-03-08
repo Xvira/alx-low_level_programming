@@ -5,7 +5,7 @@
  *
  * @n: number to find factorial.
  *
- * Returns: returns the n!
+ * Return: returns the n!
  */
 
 int factorial(int n)
