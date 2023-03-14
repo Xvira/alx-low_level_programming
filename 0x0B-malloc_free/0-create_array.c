@@ -33,7 +33,7 @@ char *create_array(unsigned int size, char c)
 		i++;
 	}
 
-	*(ptr + i) = '\0'
+	*(ptr + i) = '\0';
 
 		return (ptr);
 }
